@@ -1,0 +1,11 @@
+strings = []
+
+while True:
+    string = input()
+    if string == "end":
+        break
+    strings.append(string)
+
+for string in strings:
+    reversed_string = string[::-1]
+    print(f"{string} = {reversed_string}")
